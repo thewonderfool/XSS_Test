@@ -1,2 +1,14 @@
-new Image().src = "https://xss.report/api/hit?id=yourID";
-alert('XSS executed!');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TheWonderfool XSS Test</title>
+</head>
+<body>
+  <h1>XSS PoC Loader</h1>
+  <p>If this page loads, the JS beacon should fire.</p>
+
+  <!-- JS file loaded here -->
+  <script src="testest.js"></script>
+</body>
+</html>
